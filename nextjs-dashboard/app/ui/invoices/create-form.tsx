@@ -114,10 +114,6 @@ export default function Form({
 
         </div>
 
-
-
-
-
         {/* Invoice Amount */}
 
 
@@ -183,10 +179,6 @@ export default function Form({
 
         </div>
 
-
-
-
-
         {/* Invoice Status */}
 
 
@@ -198,8 +190,6 @@ export default function Form({
             Set the invoice status
 
           </legend>
-
-
 
           <div className="rounded-md border border-gray-200 bg-white px-[14px] py-3">
 
@@ -234,9 +224,6 @@ export default function Form({
 
               </div>
 
-
-
-
               <div className="flex items-center">
 
 
@@ -270,8 +257,6 @@ export default function Form({
 
           </div>
 
-
-
           <div
             id="status-error"
             aria-live="polite"
@@ -299,10 +284,7 @@ export default function Form({
 
       </div>
 
-
-
       {/* General Error Message */}
-
 
       <div
         aria-live="polite"
@@ -321,10 +303,6 @@ export default function Form({
 
       </div>
 
-
-
-
-
       <div className="mt-6 flex justify-end gap-4">
 
 
@@ -336,7 +314,6 @@ export default function Form({
           Cancel
 
         </Link>
-
 
         <Button type="submit">
 
